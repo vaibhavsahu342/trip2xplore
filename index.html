@@ -84,6 +84,68 @@
       .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
       }
 
+      .vl {
+       
+       padding-left: 10px;
+       padding-top: 10px;
+       color: white;
+     }
+
+     .vl a{
+       text-decoration: none;
+       color: white;
+       font-size: 13px;
+     }
+
+     .vl a:hover{
+       color: tomato;
+     }
+
+     
+     .top-logo-section {
+       background-color: #0e3496;
+     }
+
+     .pull-right{
+       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+       line-height: 1.428571429;
+       text-rendering: optimizeLegibility;
+       -webkit-font-smoothing: subpixel-antialiased;
+       color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       box-sizing: inherit;
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-weight: inherit;
+       font-style: inherit;
+       font-size: 100%;
+       vertical-align: baseline;
+       float: right !important;
+       max-width: 279px;
+     }
+
+     .pull-left{
+       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+       line-height: 1.428571429;
+       text-rendering: optimizeLegibility;
+       -webkit-font-smoothing: subpixel-antialiased;
+       color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+       box-sizing: inherit;
+       margin: 0;
+       padding: 0;
+       border: 0;
+       font-weight: inherit;
+       font-style: inherit;
+       font-size: 100%;
+       vertical-align: baseline;
+       float: left !important;
+     }
+
+     .top-logo-bg{
+       background-color: #0e3496;
+     }
 
 
   </style>
@@ -97,6 +159,27 @@
       </a>
       </div>
     </div> -->
+
+    <div class="top-logo-bg">
+      <div class="container top-logo-section">
+        <div class="row">
+          <div class="pull-left col">
+            <img src="assets/images/logo4.jpeg" class="img-fluid rounded" alt="trip2xplore">        
+          </div>
+          <div class="col-3"></div>
+          <div class="pull-right col text-start">
+            <div class="vl">
+              <p class="card-title" style="color: #83f7f4;font-size: 15px;">Contact:</p>
+              <p class="card-text"> <a href="tel:+91 8770631931">+91 87706 31931</a>
+                  <br> <a href="tel:+91 9424242521">+91 94242 42521</a>
+              </p>
+            </div>
+            
+  
+          </div>
+        </div>
+      </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -138,10 +221,10 @@
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
             </li> -->
           </ul>
-          <form class="d-flex">
+          <!-- <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form> -->
         </div>
       </div>
     </nav>
