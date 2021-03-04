@@ -94,7 +94,7 @@
      .vl a{
        text-decoration: none;
        color: white;
-       font-size: 13px;
+       font-size: 15px;
      }
 
      .vl a:hover{
@@ -147,32 +147,70 @@
        background-color: #122c82;
      }
 
+     .d-size {
+       font-size: 15px;
+     }
+     
 
   </style>
 
   <body>
-
-    <!-- <div class="row " style="margin-right: 40%;">
-      <div class="col">
-        <a href="#" >
-          <img src="assets/images/logo3.jpeg"  height="100" alt="trip2xplore">
-      </a>
-      </div>
-    </div> -->
-
-    <div class="top-logo-bg">
-      <div class="container top-logo-section">
+      <div class="top-logo-bg">
+      <div class="container-fluid top-logo-section">
         <div class="row">
-          <div class="pull-left col">
-            <img src="assets/images/logo5.png" class="img-fluid rounded" alt="trip2xplore">        
+          <div class="col-4 text-center">
+            <img src="assets/images/logo5.png" style="width: 275px;" class="img-fluid rounded" alt="trip2xplore">        
           </div>
-          <div class="col-3"></div>
-          <div class="pull-right col text-start">
+          <div class="col-6">
             <div class="vl">
-              <p class="card-title" style="color: #83f7f4;font-size: 15px;">Contact:</p>
-              <p class="card-text"> <a href="tel:+91 8770631931">+91 87706 31931</a>
-                  <br> <a href="tel:+91 9424242521">+91 94242 42521</a>
+              <p class="card-text" style="margin-left: 30px;"> <a href="tel:+91 8770631931">+91 87706 31931</a>
+                  &nbsp; <a href="tel:+91 9424242521">+91 94242 42521</a>
               </p>
+
+              <span class="align-text-bottom">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="position: absolute; margin-top: 55px;">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" style="font-size: 18px;" aria-current="page" href="#">Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" style="font-size: 18px;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Holidays
+                          </a>
+                          <ul class="dropdown-menu" style="background-color:#122c81;" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">International Packages</a></li>
+                            <li><a class="dropdown-item" href="#">Domestic Packages</a></li>
+                            <li><a class="dropdown-item" href="#">Fixed Departure</a></li>
+                            <li><a class="dropdown-item" href="#">Group Departure</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="font-size: 18px;" aria-current="page" href="#">Passport Assistance</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="font-size: 18px;" aria-current="page" href="#">Visa Assistance</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="font-size: 18px;" aria-current="page" href="#">Short Trip</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" style="font-size: 18px;" aria-current="page" href="#">Adventure Trip</a>
+                        </li>
+                    </div>
+                  </div>
+                </nav>
+              </span>
+              
             </div>
             
   
@@ -181,55 +219,9 @@
       </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">trip2xplore</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li> -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Holiday
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Duniya Dekho</a></li>
-                <li><a class="dropdown-item" href="#">Flexi Hol</a></li>
-                <li><a class="dropdown-item" href="#">Bharat Dekho</a></li>
-                <li><a class="dropdown-item" href="#">Instant Holidays</a></li>
-                <!-- <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Passport Assistance</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Visa Assistance</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Flight</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
-          </ul>
-          <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
-        </div>
-      </div>
-    </nav>
+    
 
-    <marquee direction="" class="bg-dark">Welcome to Trip2Xplore Holidays Pvt. Ltd.</marquee>
+    <marquee style="background-color: #122c81;">Welcome to TRIP2XPLORE Holidays Pvt. Ltd.</marquee>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
