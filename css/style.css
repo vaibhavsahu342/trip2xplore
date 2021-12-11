@@ -863,7 +863,7 @@ div#preloader {
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
-  background: url(assets/img/background/slider-bg.jpg);
+  background: url('../img/background/slider-bg.jpg');
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
