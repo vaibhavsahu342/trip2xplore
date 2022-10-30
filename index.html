@@ -1,714 +1,965 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Trip2xplore</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Trip2xplore</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/IMAGES/T2X-BLK.png" rel="icon" />
+    <link href="assets/IMAGES/T2X-BLK.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/IMAGES/T2X-BLK.png" rel="icon">
-  <link href="assets/IMAGES/T2X-BLK.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- international -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+    />
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- international -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
-  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-  <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  <link rel="stylesheet" href="css/templatemo-style.css">                                  
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-
- 
-  <link href="css/style.css" rel="stylesheet">
-
- 
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
-
-      <div class="logo">
-        <!-- Uncomment below if you prefer to use an image logo -->
-         <a href="index.html"><img src="assets/IMAGES/Trip2xplore_white.png" alt="" class="img-fluid" ></a>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li class="dropdown"><a href="#"><span>Tours</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#team">India Tours</a></li>
-              <li><a href="#blog">International Tours</a></li>
-</ul>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active" style="background-image: url(assets/IMAGES/cappadocia.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown"> </h2>
-                <p class="animate__animated animate__fadeInUp">“Once a year go somewhere you have never been before.” </p>
-                <a href="#team" class="btn-get-started scrollto animate__animated animate__fadeInUp">Let's Explore</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(assets/IMAGES/bg-2.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown"></h2>
-                <p class="animate__animated animate__fadeInUp">“Robert Frost was right. To take the ‘road less traveled by’ does make all the difference.” </p>
-                <a href="#team" class="btn-get-started scrollto animate__animated animate__fadeInUp">Let's Explore</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(assets/IMAGES/Maldives.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown"></h2>
-                <p class="animate__animated animate__fadeInUp">“To escape and sit quietly on the beach – that’s my idea of paradise.”</p>
-                <a href="#team" class="btn-get-started scrollto animate__animated animate__fadeInUp">Let's Explore</a>
-              </div>
-            </div>
-          </div>
-
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+        <div class="logo">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html"
+            ><img
+              src="assets/IMAGES/Trip2xplore_white.png"
+              alt=""
+              class="img-fluid"
+          /></a>
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Tours</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#team">India Tours</a></li>
+                <li><a href="#blog">International Tours</a></li>
+              </ul>
+            </li>
 
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
+            <li>
+              <a class="nav-link scrollto" href="#testimonials">Testimonials</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div>
-  </section><!-- End Hero Section -->
+    </header>
+    <!-- End Header -->
 
-  <main id="main">
+    <!-- ======= hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container">
+        <div
+          id="heroCarousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
 
-    <!-- ======= About Section ======= -->
-
-
-    <!-- ======= Services Section ======= -->
-    <div id="services" class="services-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline services-head text-center">
-              <h2>Our Services</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row text-center">
-          <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-briefcase"></i>
-                  </a>
-                  <h4>Flight Reservations</h4>
-                  <p>
-Trip2Xplore offers cost effective flight reservations to all destinations. Preference for any particular airline is of course taken into consideration whenever reservations are made.                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-card-checklist"></i>
-                  </a>
-                  <h4>Accomodation</h4>
-                  <p>
-Trip2Xplore takes pride in giving the customers a choice of their specific accommodation needs                  </p>
-                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-bar-chart"></i>
-                  </a>
-                  <h4>24x7 Assist</h4>
-                  <p>
-                  Trip2Xplore provides a 24 hour, 7 day a week emergency service to all customers.
-
+          <div class="carousel-inner" role="listbox">
+            <div
+              class="carousel-item active"
+              style="background-image: url(assets/IMAGES/cappadocia.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="container">
+                  <h2 class="animate__animated animate__fadeInDown"></h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    “Once a year go somewhere you have never been before.”
                   </p>
+                  <a
+                    href="#team"
+                    class="btn-get-started scrollto animate__animated animate__fadeInUp"
+                    >Let's Explore</a
+                  >
                 </div>
               </div>
-              <!-- end about-details -->
             </div>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-binoculars"></i>
-                  </a>
-                  <h4>Car Hire </h4>
-                  <p>
-Customer prefer any other car rental company,Trip2Xplore will oblige.                  </p>
+
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/IMAGES/bg-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="container">
+                  <h2 class="animate__animated animate__fadeInDown"></h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    “Robert Frost was right. To take the ‘road less traveled by’
+                    does make all the difference.”
+                  </p>
+                  <a
+                    href="#team"
+                    class="btn-get-started scrollto animate__animated animate__fadeInUp"
+                    >Let's Explore</a
+                  >
                 </div>
               </div>
-              <!-- end about-details -->
             </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-brightness-high"></i>
-                  </a>
-                  <h4>Accounting services</h4>
-                  <p>
-Trip2Xploreissues an invoice to the customer on receipt of a customer’s instruction and post the following day. Car hire, tours, hotel, etc., are billed on receipt of the supplier’s invoice.                </div>
-              </div>
-              <!-- end about-details -->
-            </div>
-          </div>
-          <!-- End Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <!-- end col-md-4 -->
-            <div class=" about-move">
-              <div class="services-details">
-                <div class="single-services">
-                  <a class="services-icon" href="#">
-                    <i class="bi bi-calendar4-week"></i>
-                  </a>
-                  <h4>Visas</h4>
-                  <p>
-Trip2Xplore has a department which offers professional and timeous visa services                  </p>
+
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/IMAGES/Maldives.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="container">
+                  <h2 class="animate__animated animate__fadeInDown"></h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    “To escape and sit quietly on the beach – that’s my idea of
+                    paradise.”
+                  </p>
+                  <a
+                    href="#team"
+                    class="btn-get-started scrollto animate__animated animate__fadeInUp"
+                    >Let's Explore</a
+                  >
                 </div>
               </div>
-              <!-- end about-details -->
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+
+      <!-- ======= Services Section ======= -->
+      <div id="services" class="services-area area-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline services-head text-center">
+                <h2>Our Services</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <!-- Start Left services -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-briefcase"></i>
+                    </a>
+                    <h4>Flight Reservations</h4>
+                    <p>
+                      Trip2Xplore offers cost effective flight reservations to
+                      all destinations. Preference for any particular airline is
+                      of course taken into consideration whenever reservations
+                      are made.
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-card-checklist"></i>
+                    </a>
+                    <h4>Accomodation</h4>
+                    <p>
+                      Trip2Xplore takes pride in giving the customers a choice
+                      of their specific accommodation needs
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <!-- end col-md-4 -->
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-bar-chart"></i>
+                    </a>
+                    <h4>24x7 Assist</h4>
+                    <p>
+                      Trip2Xplore provides a 24 hour, 7 day a week emergency
+                      service to all customers.
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <!-- end col-md-4 -->
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-binoculars"></i>
+                    </a>
+                    <h4>Car Hire</h4>
+                    <p>
+                      Customer prefer any other car rental company,Trip2Xplore
+                      will oblige.
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
+            </div>
+            <!-- End Left services -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <!-- end col-md-4 -->
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-brightness-high"></i>
+                    </a>
+                    <h4>Accounting services</h4>
+                    <p>
+                      Trip2Xploreissues an invoice to the customer on receipt of
+                      a customer’s instruction and post the following day. Car
+                      hire, tours, hotel, etc., are billed on receipt of the
+                      supplier’s invoice.
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
+            </div>
+            <!-- End Left services -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <!-- end col-md-4 -->
+              <div class="about-move">
+                <div class="services-details">
+                  <div class="single-services">
+                    <a class="services-icon" href="#">
+                      <i class="bi bi-calendar4-week"></i>
+                    </a>
+                    <h4>Visas</h4>
+                    <p>
+                      Trip2Xplore has a department which offers professional and
+                      timeous visa services
+                    </p>
+                  </div>
+                </div>
+                <!-- end about-details -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div><!-- End Services Section -->
+      <!-- End Services Section -->
 
-    <!-- ======= Team Section ======= -->
-    <div id="team" class="our-team-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Things To Do</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="BH.html">
-                  <img src="assets/IMAGES/candolim.jpg" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <a href="BH.html" class="ready-btn scrollto">Explore</a>
-
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Beach Holidays</h4>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="adventure.html">
-                  <img src="assets/IMAGES/bike.png" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <a href="adventure.html" class="ready-btn scrollto">Explore</a>
-
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Adventures</h4>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="RG.html">
-                  <img src="assets/IMAGES/rg.jpg" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <a href="RG.html" class="ready-btn scrollto">Explore</a>
-
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Romantic Getaways</h4>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="CB.html">
-                  <img src="assets/IMAGES/cb.jpg" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <a href="CB.html" class="ready-btn scrollto">Explore</a>
-
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>City Breaks</h4>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-        </div>
-      </div>
-    </div><!-- End Team Section -->
-
-
-
-    <!-- ======= Rviews Section ======= -->
-    <div class="reviews-area" style="background-image: url(assets/img/background/slider-bg.jpg)">
-      <div class="row g-0">
-        <div class="col-lg-6">
-          <img src="assets/IMAGES/goa-beach.jpeg" alt="" class="img-fluid">
-        </div>
-        <div class="col-lg-6 work-right-text d-flex align-items-center">
-          <div class="px-5 py-5 py-lg-0">
-            <h2>Dare to Explore...</h2>
-            <h5>Weekend Break, Package Holiday, Group Tour, Backpacking Trip, Impromptu Trip, Solo Travel, Luxury Travel.</h5>
-            <a href="#contact" class="ready-btn scrollto">Contact us</a>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Rviews Section -->
-
-    <!-- ======= White Space ======= -->
-    <div class="section-headline text-center">
-      <h2 style="padding-top: 70px;">Testimonials</h2>
-    </div>
-
-    <!-- White Space -->
-
-
-    <!-- ======= Testimonials Section ======= -->
-    <div id="testimonials" class="testimonials" style="background-image: url(assets/img/background/slider-bg.jpg)">
-      <div class="container">
-
-        <div class="testimonials-slider swiper">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Alisha Desai</h3>
-                <h4>-</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-We have get great experience in this our honeymoon trip. In kerala there are many beautiful places. We selected munnar and alleppey. Thats was great experience. Wonderfull location, falls, hills awesome we enjoyes a lot. Trip2Xplore agency gave the best service to us.                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jfif" class="testimonial-img" alt="">
-                <h3>Gururaj Nimbalkar</h3>
-                <h4>-</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-There is nothing like embarking on a Kashmir tour that involves everything you have ever dreamt of. I and my partner loved being on such a trip that was arranged by Tourist Delight where we never had to bother about making any sort of pre-bookings in resorts or planning for meals. Trip2Xplore has really given the new normal a new spin.  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Abinash Samantaray</h3>
-                <h4>-</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-It was a good experience at the Trip2Xplore. Professional approach and the entire tour was smooth without any flaw. Tour was customised as per the need and I had good and memorable experience in Dubai due to same.                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Akash Sharma</h3>
-                <h4>-</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-We had a great 1 week time on our trip to Dharamshala - Dalhousie. It was a unbelievable budget tour offered to us with fantastic hotels and services. The cab was great and the driver was very friendly.                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Aman Thakur</h3>
-                <h4>-</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-Thank you very much for organizing the trip. It has been excellent one. It was customized and planned as per requirement. The driver Mr. Thaur was extremely professional. Thank much for providing with such an excellent driver. I would definitely recommend it to my friends.                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </div><!-- End Testimonials Section -->
-
-    <!-- ======= Blog Section ======= -->
-    <div id="blog" class="blog-area">
-      <div class="blog-inner area-padding">
-        <div class="blog-overly"></div>
-        <div class="container ">
+      <!-- ======= Team Section ======= -->
+      <div id="team" class="our-team-area area-padding">
+        <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="section-headline text-center">
-                <h2>international Tours</h2>
+                <h2>Things To Do</h2>
               </div>
             </div>
           </div>
           <div class="row">
-            <!-- Start Left Blog -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="europe.html">
-                      <img src="assets/img/international/europe.jpg" alt="">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="single-team-member">
+                <div class="team-img">
+                  <a href="BH.html">
+                    <img src="assets/IMAGES/candolim.jpg" alt="" />
                   </a>
+                  <div class="team-social-icon text-center">
+                    <a href="BH.html" class="ready-btn scrollto">Explore</a>
+                  </div>
                 </div>
-                <div class="blog-text">
-                  <h4>
-                    <a href="europe.html">Europe's most visited places</a>
-                  </h4>
-                  <p>
-Europe…there’s no other place like it in the world! Its fabulous monuments reveal one layer of history after another and its breathtaking natural scenery couldn’t be more diverse. From wild to elegant, its countries bring together a kaleidoscope of cultures and its landscapes are as intriguing as its past.From legendary Positano to hilltop Ravello                  </p>
+                <div class="team-content text-center">
+                  <h4>Beach Holidays</h4>
                 </div>
-                <span>
-                  <a href="europe.html" class="ready-btn">Read more</a>
-                </span>
-              </div>
-              <!-- Start single blog -->
-            </div>
-            <!-- End Left Blog-->
-            <!-- Start Left Blog -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="asia.html">
-                    <img src="assets/img/international/asia.jpg" alt="">
-                  </a>
-                </div>
-                <div class="blog-text">
-                  <h4>
-                    <a href="asia.html">Asia's most popular places.</a>
-                  </h4>
-                  <p>
-Asia is the largest continent both in terms of sheer size  and population, which means there's literally no shortage of things to see: think rice paddies in Bali, monasteries in Bhutan, bridges in Malaysia, and water palaces in India. So many natural wonders are found here – from the highest mountain in the world to the sunniest beaches in Maldives.                 </p>
-                </div>
-                <span>
-                  <a href="asia.html" class="ready-btn">Read more</a>
-                </span>
-              </div>
-              <!-- Start single blog -->
-            </div>
-            <!-- End Left Blog-->
-            <!-- Start Right Blog-->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="america.html">
-                    <img src="assets/img/international/america.jpg" alt="">
-                  </a>
-                </div>
-                <div class="blog-text">
-                  <h4>
-                    <a href="america.html">America's most famous places</a>
-                  </h4>
-                  <p>
-You could spend a lifetime exploring the United States, all as beautiful as they are diverse. Hawaii's vertical Na'Pali Coast is  one of the most beautiful coastlines on the planet. Denali National Park is worth braving the extreme low temperatures. And perhaps you've heard of a charming little tourist destination known as the Grand Canyon  .              </div>
-                <span>
-                  <a href="america.html" class="ready-btn">Read more</a>
-                </span>
               </div>
             </div>
-            <!-- End Right Blog-->
+            <!-- End column -->
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="single-team-member">
+                <div class="team-img">
+                  <a href="adventure.html">
+                    <img src="assets/IMAGES/bike.png" alt="" />
+                  </a>
+                  <div class="team-social-icon text-center">
+                    <a href="adventure.html" class="ready-btn scrollto"
+                      >Explore</a
+                    >
+                  </div>
+                </div>
+                <div class="team-content text-center">
+                  <h4>Adventures</h4>
+                </div>
+              </div>
+            </div>
+            <!-- End column -->
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="single-team-member">
+                <div class="team-img">
+                  <a href="RG.html">
+                    <img src="assets/IMAGES/rg.jpg" alt="" />
+                  </a>
+                  <div class="team-social-icon text-center">
+                    <a href="RG.html" class="ready-btn scrollto">Explore</a>
+                  </div>
+                </div>
+                <div class="team-content text-center">
+                  <h4>Romantic Getaways</h4>
+                </div>
+              </div>
+            </div>
+            <!-- End column -->
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="single-team-member">
+                <div class="team-img">
+                  <a href="CB.html">
+                    <img src="assets/IMAGES/cb.jpg" alt="" />
+                  </a>
+                  <div class="team-social-icon text-center">
+                    <a href="CB.html" class="ready-btn scrollto">Explore</a>
+                  </div>
+                </div>
+                <div class="team-content text-center">
+                  <h4>City Breaks</h4>
+                </div>
+              </div>
+            </div>
+            <!-- End column -->
           </div>
         </div>
       </div>
-    </div><!-- End Blog Section -->
+      <!-- End Team Section -->
 
-    <!-- ======= Suscribe Section ======= -->
-    <div class="suscribe-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
-            <div class="suscribe-text text-center">
-              <h3>Welcome to Trip2xplore</h3>
-              <a href="#contact" class="sus-btn" href="#">Contact Us</a>
+      <!-- ======= Rviews Section ======= -->
+      <div
+        class="reviews-area"
+        style="background-image: url(assets/img/background/slider-bg.jpg)"
+      >
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <img src="assets/IMAGES/goa-beach.jpeg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 work-right-text d-flex align-items-center">
+            <div class="px-5 py-5 py-lg-0">
+              <h2>Dare to Explore...</h2>
+              <h5>
+                Weekend Break, Package Holiday, Group Tour, Backpacking Trip,
+                Impromptu Trip, Solo Travel, Luxury Travel.
+              </h5>
+              <a href="#contact" class="ready-btn scrollto">Contact us</a>
             </div>
           </div>
         </div>
       </div>
-    </div><!-- End Suscribe Section -->
+      <!-- End Rviews Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <div id="contact" class="contact-area">
-      <div class="contact-inner area-padding">
-        <div class="contact-overly"></div>
-        <div class="container ">
+      <!-- ======= White Space ======= -->
+      <div class="section-headline text-center">
+        <h2 style="padding-top: 70px">Testimonials</h2>
+      </div>
+
+      <!-- White Space -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <div
+        id="testimonials"
+        class="testimonials"
+        style="background-image: url(assets/img/background/slider-bg.jpg)"
+      >
+        <div class="container">
+          <div class="testimonials-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Akanksha Kerketta</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    They provide great hospitality and I have had good
+                    experience with them.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jfif"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Karan Chawra</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    It was a great experience, the properties were great.
+                    Trip2xplore(Ghanshyam Bhai) is a man of his word and
+                    commitment. He provided more than he promised. Really loved
+                    the services of Trip2xplore Travels.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Nishant Sinha</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Thank you for organizing an excellent trip, all the
+                    properties were up to the mark and they provided great
+                    hospitality. Thanks to Ghanshyam for making sure things are
+                    going right.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Ramesh Mohite</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Tour organized by Mr. Ghanshyam(Trip2xplore) is just
+                    excellent, service which we had received from local tour
+                    operator Mr. Mohsin was very good and their coordination was
+                    excellent and they provided great hospitality.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Praveen Deshmukh</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Best experience of tour to Gujrat. Very well planned and at
+                    service 24 hours during entire stay. Very professional.
+                    Would highly recommended others for best holiday packages.
+                    🙂🙂 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jfif"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Rahul Thethwar</h3>
+                  <h4>-</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    The services provided by Ghanshyam Ji (Trip2xplore Holidays)
+                    is just excellent. Very nice & all time supportive person.
+                    No need to worry if you plan your travel through
+                    Trip2xplore. It's my first choice for all my travel
+                    needs!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Blog Section ======= -->
+      <div id="blog" class="blog-area">
+        <div class="blog-inner area-padding">
+          <div class="blog-overly"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                  <h2>international Tours</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start Left Blog -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog">
+                  <div class="single-blog-img">
+                    <a href="europe.html">
+                      <img src="assets/img/international/europe.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="europe.html">Europe's most visited places</a>
+                    </h4>
+                    <p>
+                      Europe…there’s no other place like it in the world! Its
+                      fabulous monuments reveal one layer of history after
+                      another and its breathtaking natural scenery couldn’t be
+                      more diverse. From wild to elegant, its countries bring
+                      together a kaleidoscope of cultures and its landscapes are
+                      as intriguing as its past.From legendary Positano to
+                      hilltop Ravello
+                    </p>
+                  </div>
+                  <span>
+                    <a href="europe.html" class="ready-btn">Read more</a>
+                  </span>
+                </div>
+                <!-- Start single blog -->
+              </div>
+              <!-- End Left Blog-->
+              <!-- Start Left Blog -->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog">
+                  <div class="single-blog-img">
+                    <a href="asia.html">
+                      <img src="assets/img/international/asia.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="asia.html">Asia's most popular places.</a>
+                    </h4>
+                    <p>
+                      Asia is the largest continent both in terms of sheer size
+                      and population, which means there's literally no shortage
+                      of things to see: think rice paddies in Bali, monasteries
+                      in Bhutan, bridges in Malaysia, and water palaces in
+                      India. So many natural wonders are found here – from the
+                      highest mountain in the world to the sunniest beaches in
+                      Maldives.
+                    </p>
+                  </div>
+                  <span>
+                    <a href="asia.html" class="ready-btn">Read more</a>
+                  </span>
+                </div>
+                <!-- Start single blog -->
+              </div>
+              <!-- End Left Blog-->
+              <!-- Start Right Blog-->
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="single-blog">
+                  <div class="single-blog-img">
+                    <a href="america.html">
+                      <img src="assets/img/international/america.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="blog-text">
+                    <h4>
+                      <a href="america.html">America's most famous places</a>
+                    </h4>
+                    <p>
+                      You could spend a lifetime exploring the United States,
+                      all as beautiful as they are diverse. Hawaii's vertical
+                      Na'Pali Coast is one of the most beautiful coastlines on
+                      the planet. Denali National Park is worth braving the
+                      extreme low temperatures. And perhaps you've heard of a
+                      charming little tourist destination known as the Grand
+                      Canyon .
+                    </p>
+                  </div>
+
+                  <span>
+                    <a href="america.html" class="ready-btn">Read more</a>
+                  </span>
+                </div>
+              </div>
+              <!-- End Right Blog-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Blog Section -->
+
+      <!-- ======= Suscribe Section ======= -->
+      <div class="suscribe-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+              <div class="suscribe-text text-center">
+                <h3>Welcome to Trip2xplore</h3>
+                <a href="#contact" class="sus-btn" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Suscribe Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="contact-area">
+        <div class="contact-inner area-padding">
+          <div class="contact-overly"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="section-headline text-center">
+                  <h2>Contact us</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-phone"></i>
+                    <p>
+                      Call: +91 9424242521<br />
+                      <span>Monday-Friday (9am-5pm)</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-envelope"></i>
+                    <p>
+                      Email:trip2xplore@gmail.com<br />
+                      <span>Web:www.trip2xplore.com</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Start contact icon column -->
+              <div class="col-md-4">
+                <div class="contact-icon text-center">
+                  <div class="single-icon">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>
+                      Location: Shop No. 8, Ishwari Plaza,
+                      <br />
+                      Marine Drive, Raipur<br />
+                      <span>Chhattisgarh, India</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start Google Map -->
+              <div class="col-md-6">
+                <!-- Start Map -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30712602.245387375!2d64.37452719097595!3d20.004445145388257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1636913502476!5m2!1sen!2sin"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+                <!-- End Map -->
+              </div>
+              <!-- End Google Map -->
+
+              <!-- Start  contact -->
+              <div class="col-md-6">
+                <div class="form contact-form">
+                  <form
+                    action="https://formspree.io/f/xnqwaejd"
+                    method="post"
+                    role="form"
+                    class="php-email-form"
+                    id="my-form"
+                  >
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mt-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mt-3">
+                      <input
+                        type="tel"
+                        class="form-control"
+                        name="Phone-no."
+                        id="Phone-no."
+                        placeholder="Mobile Number"
+                        required
+                      />
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="5"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="text-center" id="my-form-status">
+                      <button type="submit">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- End Left contact -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <div class="footer-logo">
+                    <h2><span></span></h2>
+                  </div>
+
+                  <p>
+                    You have brains in your head. Feet in your shoes. You can
+                    steer yourself any direction you choose. You’re on your own.
+                    And you know what you know. And YOU are the one who’ll
+                    decide where to go…
+                  </p>
+                  <div class="footer-icons">
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/trip2xplore/"
+                          ><i class="bi bi-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://twitter.com/Trip2xploreH?t=9QLTnc5Z_Wi8xYxjoev2_Q&s=09"
+                          ><i class="bi bi-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://instagram.com/trip2xplore_holidays?utm_medium=copy_link"
+                          ><i class="bi bi-instagram"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end single footer -->
+            <div class="col-md-4">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4>information</h4>
+                  <p>
+                    We offer the sight, to come into the light, Exclamatory the
+                    reactions, shining it so bright.
+                  </p>
+                  <div class="footer-contacts">
+                    <p><span>Mob:</span> +91 8770631931</p>
+                    <p><span>Email:</span> trip2xplore@gmail.com</p>
+                    <p><span>Working Hours:</span> 9am-9pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end single footer -->
+            <div class="col-md-4">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4>Instagram</h4>
+                  <div class="flicker-img">
+                    <a href="#"
+                      ><img src="assets/img/portfolio/1.jpg" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="assets/img/portfolio/2.jpg" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="assets/img/portfolio/3.jpg" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="assets/img/portfolio/4.jpg" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="assets/img/portfolio/5.jpg" alt=""
+                    /></a>
+                    <a href="#"
+                      ><img src="assets/img/portfolio/6.jpg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="section-headline text-center">
-                <h2>Contact us</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Start contact icon column -->
-            <div class="col-md-4">
-              <div class="contact-icon text-center">
-                <div class="single-icon">
-                  <i class="bi bi-phone"></i>
-                  <p>
-                    Call: +91 9424242521<br>
-                    <span>Monday-Friday (9am-5pm)</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Start contact icon column -->
-            <div class="col-md-4">
-              <div class="contact-icon text-center">
-                <div class="single-icon">
-                  <i class="bi bi-envelope"></i>
-                  <p>
-                    Email:trip2xplore@gmail.com<br>
-                    <span>Web:www.trip2xplore.com</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Start contact icon column -->
-            <div class="col-md-4">
-              <div class="contact-icon text-center">
-                <div class="single-icon">
-                  <i class="bi bi-geo-alt"></i>
-                  <p>
-                    Location: Shop No. 8, Ishwari Plaza,
-                    <br> Marine Drive, Raipur<br>
-                    <span>Chhattisgarh, India</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-
-            <!-- Start Google Map -->
-            <div class="col-md-6">
-              <!-- Start Map -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30712602.245387375!2d64.37452719097595!3d20.004445145388257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1636913502476!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>              <!-- End Map -->
-            </div>
-            <!-- End Google Map -->
-
-            <!-- Start  contact -->
-            <div class="col-md-6">
-              <div class="form contact-form">
-                <form action="https://formspree.io/f/xnqwaejd" method="post" role="form" class="php-email-form" id="my-form">
-                  <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="tel" class="form-control" name="Phone-no." id="Phone-no." placeholder="Mobile Number" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="text-center" id="my-form-status"><button type="submit">Send Message</button></div>
-                </form>
-              </div>
-            </div>
-            <!-- End Left contact -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <div class="footer-logo">
-                  <h2><span></span></h2>
-                </div>
-
-                <p>You have brains in your head. Feet in your shoes. You can steer yourself any direction you choose. You’re on your own. And you know what you know. And YOU are the one who’ll decide where to go…</p>
-                <div class="footer-icons">
-                  <ul>
-                    <li>
-                      <a href="https://www.facebook.com/trip2xplore/"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/Trip2xploreH?t=9QLTnc5Z_Wi8xYxjoev2_Q&s=09"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://instagram.com/trip2xplore_holidays?utm_medium=copy_link"><i class="bi bi-instagram"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>information</h4>
+              <div class="copyright text-center">
                 <p>
-                  We offer the sight, to come into the light, Exclamatory the reactions, shining it so bright.
+                  &copy; Copyright
+                  <strong>Trip2xplore Holidays Pvt. Ltd</strong>.
                 </p>
-                <div class="footer-contacts">
-                  <p><span>Mob:</span> +91 8770631931</p>
-                  <p><span>Email:</span> trip2xplore@gmail.com</p>
-                  <p><span>Working Hours:</span> 9am-9pm</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>Instagram</h4>
-                <div class="flicker-img">
-                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-area-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="copyright text-center">
-              <p>
-                &copy; Copyright <strong>Trip2xplore Holidays Pvt. Ltd</strong>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+    </footer>
+    <!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" onmouseover="this.style.backgroundColor='#3a3a3a'" onmouseout="this.style.backgroundColor=''"><i class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      onmouseover="this.style.backgroundColor='#3a3a3a'"
+      onmouseout="this.style.backgroundColor=''"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="vendor/php-email-form/validate.js"></script>
-  <script src="vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-  <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->
-  <script src="js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
-  <script src="js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
-  <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-  <script src="slick/slick.min.js"></script>                  <!-- http://kenwheeler.github.io/slick/ -->
-  <script src="js/jquery.scrollTo.min.js"></script>           <!-- https://github.com/flesler/jquery.scrollTo -->
+    <!-- Vendor JS Files -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- jQuery (https://jquery.com/download/) -->
+    <script src="js/popper.min.js"></script>
+    <!-- https://popper.js.org/ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- https://getbootstrap.com/ -->
+    <script src="js/datepicker.min.js"></script>
+    <!-- https://github.com/qodesmith/datepicker -->
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
+    <script src="slick/slick.min.js"></script>
+    <!-- http://kenwheeler.github.io/slick/ -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <!-- https://github.com/flesler/jquery.scrollTo -->
 
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/app.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
